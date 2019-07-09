@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Yoga_swift"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of Yoga_swift."
+  s.name         = 'Yoga_swift'
+  s.version      = '0.0.1'
+  s.summary      = 'A short description of Yoga_swift'
   s.description  = <<-DESC
                    12345671234
                     DESC
 
-  s.homepage     = "https://github.com/baoshanzhang/Yoga_swift"
+  s.homepage     = 'https://github.com/baoshanzhang/Yoga_swift'
   s.license      = 'MIT'
-  s.author             = { "zhangbaoshan" => "ios_zbs@163.com" }
-  s.source       = { :git => "https://github.com/baoshanzhang/Yoga_swift.git", :tag => s.version.to_s }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.author       = { 'zhangbaoshan' => 'ios_zbs@163.com' }
+  s.source       = { :git => 'https://github.com/baoshanzhang/Yoga_swift.git', :tag => s.version.to_s }
+  s.source_files = 'source/*.{h,m}'
+  s.requires_arc = true
 
 end
