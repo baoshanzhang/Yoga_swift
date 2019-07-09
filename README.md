@@ -1,2 +1,3 @@
-# yoga_swift
-yoga布局
+# Yoga_swift
+Yoga布局
+pod 'Yoga_swift'
